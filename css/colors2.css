@@ -1,0 +1,33 @@
+*:focus {
+  outline: none;
+}
+body{
+  margin: 0;
+}
+form{
+  margin: 0;
+  padding: 0;
+  border: 1px solid red;
+}
+#color-input{
+  display: flex;
+  justify-content: space-around;
+  background: -webkit-gradient(linear,left top, left bottom,from(rgb(110, 126, 135,0.8)),to(rgb(110, 126, 135,0.01)) );
+  background: -webkit-linear-gradient(rgb(110, 126, 135,0.8),rgb(110, 126, 135,0.01) );
+  background: -o-linear-gradient(rgb(110, 126, 135,0.8),rgb(110, 126, 135,0.01) );
+  background: linear-gradient(rgb(110, 126, 135,0.8),rgb(110, 126, 135,0.01) );
+  min-height: 100px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 100%;
+}
+#color-input textarea{
+  /* box-sizing: border-box;
+  -webkit-box-sizing: border-box; */
+  padding: 0;
+  width: 19%;
+  border-color: rgba(255, 255, 255, 0.4);
+}
+.colors{
+
+}

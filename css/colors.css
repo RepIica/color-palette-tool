@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100");
+html,
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(30, 30, 30);
+  font-family: Roboto, arial, sans-serif;
+}
+.header {
+  color: white;
+  text-align: center;
+}
+.header h1 {
+  letter-spacing: 2rem;
+}
+.header h3 {
+  letter-spacing: 0.1rem;
+  font-size: 0.9rem;
+}
+.container {
+  padding: 0;
+  width: 90%;
+  margin: 2rem auto;
+  letter-spacing: 0.1rem;
+}
+.color-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  position: relative;
+  width: 100%;
+  margin-bottom: -1rem;
+  transition: all 0.3s ease;
+  -webkit-box-shadow: 0px 0px 21px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 21px 2px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 21px 2px rgba(0, 0, 0, 0.75);
+}
+.color-container5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+.color {
+  height: 15rem;
+  transition: all 0.2s ease;
+}
+.color:hover {
+  cursor: pointer;
+}
+
+.copy-text {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 36rem;
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 1rem;
+  margin: 0 auto;
+  position: relative;
+  top: -2.5rem;
+  font-size: 1.2rem;
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.45);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.45);
+  transition: all 0.3s;
+}
+.copy-text:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.copied-alert {
+  width: 100%;
+  height: 10rem;
+  color: white;
+  background-color: rgba(50, 180, 90, 0.2);
+  position: absolute;
+  z-index: 50;
+  opacity: 0;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  overflow: hidden;
+}
+.copied-alert-color {
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: rgba(50, 180, 90, 0.5);
+  z-index: 50;
+  position: relative;
+  opacity: 0;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+#expander{
+  background: rgb(133, 139, 150,0.4);
+  border: 0px;
+}
+.expanded{
+  height: 600px;
+}
+.max-width{
+  width: 100%;
+}
+#source{
+  background: none;
+  color: rgba(193, 193, 193, 0.5);
+  height: 28px;
+  border: none;
+}
+#source:hover{
+  background: rgb(170, 170, 170);
+  color: #151515;
+  transition: 0.5s;
+}
+/* a.nostyle:link {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+a.nostyle:visited {
+    text-decoration: inherit;
+    color: inherit;
+} */
+/*
+@media only screen and (max-width: 1000px) {
+  .copy-text {
+    width: 30rem;
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .container {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .copy-text {
+    width: 20rem;
+    font-size: 0.8rem;
+    letter-spacing: 0rem;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .copy-text {
+    width: 20rem;
+    font-size: 0.7rem;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .copy-text {
+    width: 15rem;
+    font-size: 0.65rem;
+  } */
+}
